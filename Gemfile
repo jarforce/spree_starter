@@ -82,9 +82,9 @@ gem 'i18n-js', '>= 3.0.0.rc11'
 # Spree gems
 gem 'spree', '~> 4.2.0.rc4'
 gem 'spree_gateway', '~> 3.9'
-#gem 'spree_auth_devise', '~> 4.3'
+gem 'spree_auth_devise', '~> 4.3'
 gem 'spree_i18n', '~> 5.0'
-gem 'spree_dev_tools', require: false, group: %w[test development]
+#gem 'spree_dev_tools', require: false, group: %w[test development]
 gem 'spree_braintree_vzero', '~> 3.5'
 gem 'spree_globalize', github: 'spree-contrib/spree_globalize'
 gem 'spree_digital', github: 'spree-contrib/spree_digital'
